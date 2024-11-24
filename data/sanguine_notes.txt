@@ -1,0 +1,44 @@
+I’ve sent you a JSON with our HQ information, including the following:
+
+	1	Our warehouse information:
+	a	Inventory, our current resources and information on storage space per item
+	b	Location
+	c	Service area, due to terrain constraints we can only respond to requests in this area
+	d	Total storage space, we can only hold this amount of resources in total
+	e	Utilised storage space (taken up by current inventory)
+	f	Our current balance of ‘Favors’, the only currency humanity has left
+	2	Logistics information:
+	a	Our number of vehicles, each vehicle has 500 storage space that can be used, cannot transport resources above this limit in a journey
+	b	Vehicle service radius, When a vehicle is deployed to a location it can set up a minor radio beacon to arrange exchange of resources with outposts within range, this is measured as distance between two cartesian coordinates
+	c	Vehicle journeys per week, Each week we can deploy each vehicle once to a cartesian coordinate
+	3	Terrain Knowledge:
+	a	I’ve included some intel notes that we’ve found over the time of our operation, they might be useful to you. ﻿
+
+I’ve also included two other documents:
+
+	1	A CSV of all the outposts with which we have communication and their locations, uniquely identified by their code
+	2	A CSV of all the radio logs we’ve received
+
+The real problem:
+
+We effectively have two action turns we can take:
+	1	This week: deploy our vehicles to locations this week and exchange resources for radio logs we’ve collected, getting inventory ready for next week’s radio logs
+	2	Next week: Pick our locations for next week’s vehicle deployment based on trends we see in the data and predict where we can exchange our inventory for maximum gains in our Favor balance.
+
+Please respond with:
+	1	An .ipynb file containing all your working, reasoning and code, I’ll use this to assess your suitability as my replacement
+	2	A JSON file containing the coordinates of vehicle deployment for this week and next week
+	3	A CSV file with all radio logs that we intend to respond to this week, for both REQUEST/EXCESS types
+
+Radio Log Data Structure:
+
+DATE: The week date that the radio transmission was received, the date being the last day of the week period
+OUTPOST_CODE: The unique identifier of the outpost that sent the transmission
+MESSAGE_CODE: The unique identifier of the radio transmission
+ITEM: The resource that the outpost is interested in trading
+QUANTITY: How many of the item the outpost is willing to trade
+FAVORS: The number of Favors per item that the outpost is willing to exchange
+MESSAGE_TYPE: Values [‘REQUEST’,’EXCESS’], a REQUEST is an intent to purchase, an EXCESS is an intent to sell
+
+Always resist.
+

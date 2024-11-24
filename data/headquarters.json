@@ -1,0 +1,175 @@
+{
+    "warehouse_info": {
+        "inventory": {
+            "Raw Metals": {
+                "Iron": {
+                    "storage_per_item": 2.0,
+                    "current_inventory": 4
+                },
+                "Aluminium": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 3
+                },
+                "Titanium": {
+                    "storage_per_item": 1.5,
+                    "current_inventory": 3
+                },
+                "Cobalt": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 1
+                },
+                "Nickel": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 2
+                }
+            },
+            "Machinery": {
+                "Drone Parts": {
+                    "storage_per_item": 3.0,
+                    "current_inventory": 3
+                },
+                "Gears": {
+                    "storage_per_item": 2.0,
+                    "current_inventory": 5
+                }
+            },
+            "Tools": {
+                "Drilling Equipment": {
+                    "storage_per_item": 3.0,
+                    "current_inventory": 1
+                },
+                "Workshop Tools": {
+                    "storage_per_item": 3.0,
+                    "current_inventory": 2
+                },
+                "Kitchen Tools": {
+                    "storage_per_item": 2.0,
+                    "current_inventory": 2
+                },
+                "Climbing Equipment": {
+                    "storage_per_item": 2.0,
+                    "current_inventory": 3
+                },
+                "Medical Equipment": {
+                    "storage_per_item": 1.5,
+                    "current_inventory": 1
+                }
+            },
+            "Security": {
+                "Pistol Parts": {
+                    "storage_per_item": 3.0,
+                    "current_inventory": 2
+                },
+                "Riot Equipment": {
+                    "storage_per_item": 6.0,
+                    "current_inventory": 1
+                },
+                "Makeshift Explosives": {
+                    "storage_per_item": 2.0,
+                    "current_inventory": 6
+                },
+                "Experimental Weaponry": {
+                    "storage_per_item": 1.5,
+                    "current_inventory": 2
+                },
+                "Radio Equipment": {
+                    "storage_per_item": 1.5,
+                    "current_inventory": 3
+                }
+            },
+            "Fuel": {
+                "Petrol": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 4
+                },
+                "Diesel": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 2
+                }
+            },
+            "Food": {
+                "Protein Rations": {
+                    "storage_per_item": 0.5,
+                    "current_inventory": 3
+                },
+                "Carbohydrate Rations": {
+                    "storage_per_item": 0.5,
+                    "current_inventory": 2
+                },
+                "Fat Rations": {
+                    "storage_per_item": 0.25,
+                    "current_inventory": 2
+                },
+                "Sterile Water": {
+                    "storage_per_item": 3.0,
+                    "current_inventory": 2
+                }
+            },
+            "Survival": {
+                "Rope": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 3
+                },
+                "Pulley": {
+                    "storage_per_item": 1.0,
+                    "current_inventory": 2
+                },
+                "Medikit": {
+                    "storage_per_item": 0.25,
+                    "current_inventory": 4
+                },
+                "Rubbing Alcohol": {
+                    "storage_per_item": 0.1,
+                    "current_inventory": 3
+                },
+                "Bandages": {
+                    "storage_per_item": 0.25,
+                    "current_inventory": 5
+                },
+                "Hygiene Packs": {
+                    "storage_per_item": 0.5,
+                    "current_inventory": 4
+                }
+            },
+            "Miscellaneous": {
+                "Tequila": {
+                    "storage_per_item": 0.5,
+                    "current_inventory": 1
+                },
+                "Rubber Duckies": {
+                    "storage_per_item": 0.25,
+                    "current_inventory": 6
+                }
+            }
+        },
+        "location": "POINT (284.4915175918416 278.8932353911435)",
+        "service_area": "POLYGON ((46 91, 240 74, 490 89, 449 381, 483 412, 281 462, 112 425, 70 210, 46 91))",
+        "total_storage_space": 1000,
+        "utilised_storage_space": 116.05,
+        "favor_balance": 12789
+    },
+    "logistics_info": {
+        "num_vehicles": 3,
+        "vehicle_service_radius": 75,
+        "vehicle_journeys_per_week": 1,
+        "favor_cost_per_unit_distance": 2
+    },
+    "terrain_knowledge": {
+        "drunks": {
+            "area": "POLYGON ((416 38, 410.14213562373095 23.85786437626905, 396 18, 381.85786437626905 23.85786437626905, 376 38, 381.85786437626905 52.14213562373095, 396 58, 410.14213562373095 52.14213562373095, 416 38))",
+            "intel": "Their radio correspondent always slurs their speech and they always have a lot of alcohol"
+        },
+        "water_shortage": {
+            "area": "POLYGON ((79.28932188134524 179.28932188134524, 51.50191048159948 232.9089601764252, 51.50191048159944 267.09103982357453, 60.70447212641025 294.9475915128143, 77.59710467292473 318.9332868016784, 105.05240848718591 339.29552787358983, 137.7626192607536 349.2180618318489, 167.09103982357422 348.4980895184006, 215.29761195053342 325.6980789358846, 325.6980789358846 215.29761195053342, 346.3485794463376 176.6632428578864, 348.49808951840055 132.9089601764252, 334.4599111151409 96.5163511393589, 307.56347687560185 68.26614281084053, 271.9035250959697 52.45917332011131, 232.9089601764252 51.50191048159948, 184.70238804946672 74.30192106411525, 79.28932188134524 179.28932188134524))",
+            "intel": "Seems like there is an evolving issue with water, might be worth investigating"
+        },
+        "small_people": {
+            "area": "POLYGON ((264 163, 256.6776695296637 145.3223304703363, 239 138, 221.3223304703363 145.3223304703363, 214 163, 221.3223304703363 180.6776695296637, 239 188, 256.67766952966366 180.6776695296637, 264 163))",
+            "intel": "A community of small people who always have an abundance of food"
+        },
+        "a_bad_place": {
+            "area": "POLYGON ((387 400, 379.6776695296637 382.32233047033634, 362 375, 344.32233047033634 382.3223304703363, 337 400, 344.3223304703363 417.67766952966366, 362 425, 379.67766952966366 417.6776695296637, 387 400))",
+            "intel": "Dangerous people, their ruler seems to want control over the landscape"
+        }
+    }
+}
