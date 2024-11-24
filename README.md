@@ -1,1 +1,7 @@
 # Terminator-Resistance-Strategy
+It’s September 25th, 2028. Skynet went live 31 years ago and swiftly decimated the majority of humankind. In the years following, the remaining population has maintained a desperate struggle for survival against the AI menace, forming sporadic outposts across what is now the wasteland. You are a bright programmer who has just received a transmission from an organisation that you’ve heard of before, but never engaged with: The Resistance. You're hoping it's an opportunity for you to gain a few Favors.
+
+
+Transmission:
+
+"This is resistance outpost 47, code Delta-Phi-Delta. We are in urgent... [STATIC NOISE]... urgent need of support. Repeat. We are in urgent need of support. We operate a supply distribution hub within trans... [STATIC NOISE]... mission range of your location. Our goal is to maximise the amount of Favors we have to build up our resources and create a better, safer future for humanity. We do this by managing a radio call station for all local outposts, tracking both requests for materials and calls of excess across the waste... [STATIC NOISE]... [MORE STATIC NOISE]... then sending our vehicles to trade in resources with the people. Our data specialist, codename Sanguine, has been severely wounded and might not make it another 4 days - their final task is to find their replaceme...[EVEN MORE STATIC NOISE]. We are hoping you can rise to the occasion. Sanguine has provided a data pack for your digest along with instructions. We need your response within 72 hours of this transmission. Always resist. Over."
